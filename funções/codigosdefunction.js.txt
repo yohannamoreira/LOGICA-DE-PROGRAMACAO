@@ -1,0 +1,59 @@
+let usuarioCorreto1 = "yohanna"
+let senhaCorreta1 = "1234"
+
+let usuarioCorreto2 = "ana"
+let senhaCorreta2 = "banana"
+
+let usuarioCorreto3 = "fernanda"
+let senhaCorreta3 = "derrota"
+
+let usuarioCorreto4 = "geovanna"
+let senhaCorreta4 = "brother"
+
+let usuarioCorreto5 = "ayanna"
+let senhaCorreta5 = "lov u"
+
+let usuarioCorreto6 = "mary"
+let senhaCorreta6 = "kkkk"
+
+let usuarioCorreto7 = "agatha"
+let senhaCorreta7 = "6575"
+
+let usuarioCorreto8 = "carol biazin"
+let senhaCorreta8 = "noescuro"
+
+let usuarioCorreto9 = "mary"
+let senhaCorreta9 = "4567"
+
+let usuarioCorreto10= "india"
+let senhaCorreta10 = "4907"
+let usuario = prompt("Digite a senha de usuario:")
+let senha = prompt("Digite a senha de usuario:")
+
+function login(usuario,senha) {
+    if(usuario ==usuarioCorreto1 && senha ==senhaCorreta1) {
+        console.log("Login realizado com sucesso")
+    } else if(usuario ==usuarioCorreto2 && senha ==senhaCorreta2){
+        console.log("Login realizado com sucesso")
+       } else if(usuario ==usuarioCorreto3 && senha ==senhaCorreta3){
+        console.log("Login realizado com sucesso")
+       } else if(usuario ==usuarioCorreto4 && senha ==senhaCorreta4){
+        console.log("Login realizado com sucesso")
+       } else if(usuario ==usuarioCorreto5 && senha ==senhaCorreta5){
+        console.log("Login realizado com sucesso")
+       } else if(usuario ==usuarioCorreto6 && senha ==senhaCorreta6){
+        console.log("Login realizado com sucesso")
+       } else if(usuario ==usuarioCorreto7 && senha ==senhaCorreta7){
+        console.log("Login realizado com sucesso")
+       } else if(usuario ==usuarioCorreto8 && senha ==senhaCorreta8){
+        console.log("Login realizado com sucesso")
+       } else if(usuario ==usuarioCorreto9 && senha ==senhaCorreta9){
+        console.log("Login realizado com sucesso")
+       } else if(usuario ==usuarioCorreto10 && senha ==senhaCorreta10){
+        console.log("Login realizado com sucesso")
+    }
+    else {
+        console.log("Usuario ou senha incorretos")
+    }
+}
+login(usuario,senha)
