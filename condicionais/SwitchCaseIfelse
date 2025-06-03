@@ -26,3 +26,37 @@ case "mv":
 console.log("Esse comando serve pra mover um diretorio para o outro")
 }
 }
+
+*
+
+console.log("Escolha um sistema operacional para começarmos")
+let sistemaOperacional = prompt(" CMD Windows \nTerminal linux\n:")
+if (sistemaOperacional == "CMD" || "Windows" || "CMD Windows") {
+console.log("No CMD, temos os seguintes comandos para poder operar dentro do Terminal: dir, del, mkdir, ping , ipconfig, cls, existe, move")
+let terminal = prompt("Digite o comando sobre o qual deseja saber mais: ")
+switch (terminal){
+case "dir":
+console.log("vai mostrar todos os arquivos e pastas dentro do diretório atual");
+break;
+case "del":
+console.log(" também é usado no Prompt de Comando do Windows e serve para excluir arquivos.");
+break;
+case "mkdir.":
+console.log("cria um diretório");
+break;
+case "ping":
+console.log("O comando ping é usado para testar a conectividade entre o seu computador e outro dispositivo na rede, geralmente outro computador ou servidor. Ele envia pacotes de dados e mede quanto tempo demora para obter uma resposta.");
+break;
+case "ipconfig":
+console.log("O comando ipconfig é usado no Prompt de Comando do Windows para exibir informações de rede do seu computador, como o endereço IP, máscara de sub-rede, gateway padrão e muito mais");
+break;
+case "cls":
+console.log("ele limpa a tela do Prompt de Comando.");
+break;
+case "exit":
+console.log(" ele fecha o Prompt de Comando.");
+break
+case "move":
+console.log("é usado para mover arquivos ou pastas de um local para outro. Ele também pode ser usado para renomear arquivos.")
+}
+}
