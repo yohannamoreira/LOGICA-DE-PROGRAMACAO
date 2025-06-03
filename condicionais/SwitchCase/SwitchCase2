@@ -1,0 +1,166 @@
+let respostaCorreta = 0
+let respostaIncorreta = 0
+
+console.log("Qual real nome da cantora Carol Biazin")
+console.log("A - Carol biazin")
+console.log("B - Carolina Souza Biazin")
+console.log("C - Caroline dos Reis Biazin")
+console.log("D - Caroline Souza dos Reis Biazin")
+let pergunta1 = prompt ("Digite a alternativa correta: ")
+switch (true){
+    case pergunta1 == "C" || pergunta1 == "Caroline dos Reis Biazin":
+        console.log("Resposta correta!\n")
+        respostaCorreta++
+        break
+        default:
+        console.log("Resposta Incorreta!\n ")
+        respostaIncorreta ++
+        break
+}
+console.log("Qual programa a Carol Biazin ficou conhecida")
+console.log("A - The voice Brasil")
+console.log("B - Idolos")
+console.log("C - Fabrica de estrelas")
+console.log("D - Globo")
+let pergunta2 = prompt ("Digite a alternativa correta: ")
+switch (true){
+    case pergunta2 == "A" || pergunta2 == "The voice Brasil":
+        console.log("Resposta correta!\n")
+        respostaCorreta++
+        break
+        default:
+        console.log("Resposta Incorreta!\n ")
+        respostaIncorreta ++
+        break
+}
+console.log("Qual dessas músicas faz parte do álbum Beijo d Judas")
+console.log("A - Fica pro Café")
+console.log("B - Beijo de Judas")
+console.log("C - Reversa")
+console.log("D - Se quiser")
+let pergunta3 = prompt ("Digite a alternativa correta: ")
+switch (true){
+    case pergunta3 == "B" || pergunta3 == "Beijo de Judas":
+        console.log("Resposta correta!\n")
+        respostaCorreta++
+        break
+        default:
+        console.log("Resposta Incorreta!\n ")
+        respostaIncorreta ++
+        break
+}
+console.log("Qual o nome do Primeiro album de Estudio da Carol")
+console.log("A - No Escuro")
+console.log("B - Reversa")
+console.log("C - Beijo de Judas")
+console.log("D - Sem filtro")
+let pergunta4 = prompt ("Digite a alternativa correta: ")
+switch (true){
+    case pergunta4 == "C" || pergunta4 == "Beijo de Judas":
+        console.log("Resposta correta!\n")
+        respostaCorreta++
+        break
+        default:
+        console.log("Resposta Incorreta!\n ")
+        respostaIncorreta ++
+        break
+}
+console.log("Qual artista Carol biazin gravou a musica Tentação")
+console.log("A - Vitão")
+console.log("B - Luisa Sonsa")
+console.log("C - Anavitoria")
+console.log("D - Gloria Groove")
+let pergunta5 = prompt ("Digite a alternativa correta: ")
+switch (true){
+    case pergunta5 == "D" || pergunta5 == "Gloria Groove":
+        console.log("Resposta correta!\n")
+        respostaCorreta++
+        break
+        default:
+        console.log("Resposta Incorreta!\n ")
+        respostaIncorreta ++
+        break
+}
+console.log("Qual dessas frases representa uma vibe comum nas letras da Carol")
+console.log("A - Tudo é Farra")
+console.log("B - Amor com intensidade mesmo que doa")
+console.log("C - Odeio Romantismo")
+console.log("D - Nada me atinge, sigo fria")
+let pergunta6 = prompt ("Digite a alternativa correta: ")
+switch (true){
+    case pergunta6 == "B" || pergunta6 == "Amor com intensidade mesmo que doa":
+        console.log("Resposta correta!\n")
+        respostaCorreta++
+        break
+        default:
+        console.log("Resposta Incorreta!\n ")
+        respostaIncorreta ++
+        break
+}
+console.log("Qual música da Carol Biazin fala sobre um amor que vai e volta")
+console.log("A - Início do Fim")
+console.log("B - Fica Pro Café")
+console.log("C - Entre Linhas")
+console.log("D - Replay")
+let pergunta7 = prompt ("Digite a alternativa correta: ")
+switch (true){
+    case pergunta7 == "D" || pergunta7 == "Replay":
+        console.log("Resposta correta!\n")
+        respostaCorreta++
+        break
+        default:
+        console.log("Resposta Incorreta!\n ")
+        respostaIncorreta ++
+        break
+}
+console.log("Em qual cidade Carol Biazin nasceu")
+console.log("A - Londrina")
+console.log("B - Curitiba")
+console.log("C - Maringá")
+console.log("D - Cascavel")
+let pergunta8 = prompt ("Digite a alternativa correta: ")
+switch (true){
+    case pergunta8 == "C" || pergunta8 == "Maringá":
+        console.log("Resposta correta!\n")
+        respostaCorreta++
+        break
+        default:
+        console.log("Resposta Incorreta!\n ")
+        respostaIncorreta ++
+        break
+}
+console.log("Qual música os fãs mais pedem pra ela cantar nos seus shows?")
+console.log("A - No particular")
+console.log("B - Códigos")
+console.log("C - Ligações de Alma")
+console.log("D - Inicio do Fim")
+let pergunta9 = prompt ("Digite a alternativa correta: ")
+switch (true){
+    case pergunta9 == "C" || pergunta9 == "Inicio do Fim":
+        console.log("Resposta correta!\n")
+        respostaCorreta++
+        break
+        default:
+        console.log("Resposta Incorreta!\n ")
+        respostaIncorreta ++
+        break
+}
+console.log(" Com quem Carol Biazin teve um relacionamento público??")
+console.log("A - Anitta")
+console.log("B - Day Limns")
+console.log("C - Marina Sena")
+console.log("D - Vitoria Falcão")
+let pergunta10 = prompt ("Digite a alternativa correta: ")
+switch (true){
+    case pergunta10 == "B" || pergunta10 == "Relacionamento Escondido":
+        console.log("Resposta correta!\n")
+        respostaCorreta++
+        break
+        default:
+        console.log("Resposta Incorreta!\n ")
+        respostaIncorreta ++
+        break
+}
+console.log("Respostas: ")
+console.log("Resposta correta: " + respostaCorreta)
+console.log("Respostas: " + respostaIncorreta)
