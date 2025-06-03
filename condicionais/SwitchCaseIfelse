@@ -1,0 +1,28 @@
+console.log("Escolha um sistema operacional para começarmos")
+let sistemaOperacional = prompt(" Terminal Linux \nCMD Windows\n:").toLowerCase()
+if (sistemaOperacional == "linux" || "terminal" || "terminal Linux") {
+console.log("No Linux, temos os seguintes comandos para poder operar dentro do Terminal: Ls, clear, cd, cd.. , mkdir, echo, cat, mv, mv + (nome do arquivo)")
+let terminal = prompt("Digite o comando sobre o qual deseja saber mais: ").toLowerCase()
+switch (terminal){
+case "ls":
+console.log("O comando LS lista o que está dentro do diretório atual em que você esteja");
+break;
+case "clear":
+console.log("Ao utilizar esse comando deve-se colocar o CD + o nome do diretório em que deseja entrar para que você acesse um diretório ou arquivo");
+break;
+case "cd..":
+console.log("Esse comando volta ao diretório anterior");
+break;
+case "mkdir":
+console.log("cria um diretório");
+break;
+case "echo":
+console.log("Esse comando cria um arquivo");
+break;
+case "cat":
+console.log("Diferentemente do comando LS que mostra o que há dentro de um diretório, o CAT mostra o que há dentro de um arquivo");
+break;
+case "mv":
+console.log("Esse comando serve pra mover um diretorio para o outro")
+}
+}
