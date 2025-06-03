@@ -1,0 +1,39 @@
+/*let nome = (&quot;Yohanna&quot;)
+console.log ( nome )
+
+let idade = 16
+console.log(16)
+
+let aprendendoJavaScript = true
+console.log(aprendendoJavaScript)*/
+
+/*let nome = (&quot;Seunome&quot;)
+let sobrenome = (&quot;SeuSobrenome&quot;)
+let nomeCompleto = (nome+sobrenome)
+console.log(nomeCompleto)*/
+
+/*let numero1 = 10
+let numero2 = 10
+let soma = (numero + numero2)
+console.log(soma)*/
+
+/*let numero1 = 5
+let numero2 = 5
+let multiplicacao = (numero1 * numero2)
+console.log(multiplicacao)*/
+
+/*let cidade = (&quot;Carolbiazinlandia&quot;)
+console.log(cidade)
+let habitantes = (&quot;77777&quot;)
+console.log(habitantes)*/
+
+/*let preco = 4
+preco +- 40
+
+console.log(preco)*/
+
+/*let meuValor
+console.log(meuValor)*/
+
+/*let meuNulo =(&quot;nu11&quot;)
+console.log(meuNulo)*/
